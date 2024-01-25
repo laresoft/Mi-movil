@@ -407,7 +407,7 @@ body {
 }
 
 .footer {
-  padding: 100px 0;
+  padding: 60px 0 0 0;
   display: flex;
   justify-content: space-between;
 }
@@ -438,6 +438,13 @@ body {
   margin-bottom: 5px;
   display: inline-block;
   color: #d3d2d2;
+}
+
+.reservado {
+  display: block;
+  color: #d3d2d2;
+  margin: 20px;
+  text-align: center;
 }
 
 @media (max-width: 1090px) {
