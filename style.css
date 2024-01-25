@@ -445,6 +445,9 @@ body {
     padding: 20px;
     justify-content: space-between;
   }
+  .menu .navbar{
+    display: none;
+  }
   .menu-2 {
     display: none;
   }
@@ -476,6 +479,7 @@ body {
 
   #menu:checked ~ .navbar {
     display: initial; 
+    transition-duration: 2s;
   }
 
   .menu .social {
@@ -580,7 +584,6 @@ body {
     padding: 4%;
     text-align: center;
     height: 520px;
-    
   }
 
   .horario-info h1 {
@@ -611,7 +614,7 @@ body {
     justify-content: right !important;
     display: inline-flex;
     position: absolute;
-    margin-top: -250px;
+    margin-top: -285px;
     margin-left: 200px;
   }
 
